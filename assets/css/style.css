@@ -1,0 +1,105 @@
+body{
+    background-color: #588157;
+}
+
+#title{
+    background-color: #dad7cd;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid #3a5a40;
+}
+.container {
+    width: 17vw;
+    max-width: 260px;
+    min-width: 210px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #3a5a40;
+    border-radius: 9px;
+    margin-top: 6vh;
+    background-color: #dad7cd;
+}
+
+#formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+input{
+    width: 100%;
+    max-width: 400px;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+h1{
+    text-align: center;
+}
+
+select{
+    width: 100%;
+    max-width: 400px;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+button{
+    width: 100%;
+    max-width: 400px;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    background-color: #a3b18a;
+    cursor: pointer;
+
+}
+
+h4{
+    margin: 20px;
+}
+.grafica{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+#myChart {
+    width: 100%;
+    max-width: 1300px;
+    height: 400px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 2px solid #3a5a40;
+
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    padding-top: 30px;
+    background-color: #dad7cd;
+
+}
